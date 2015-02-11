@@ -4,7 +4,7 @@
   <title>Yeoman Blog</title>
   <link href="http://yeoman.io/blog/atom.xml" rel="self"/>
   <link href="http://yeoman.io"/>
-  <updated>2015-02-11T21:11:25+08:00</updated>
+  <updated>2015-02-11T21:31:39+08:00</updated>
   <id>http://yeoman.io/</id>
   <author>
     <name>Yeoman.io</name>
@@ -1074,111 +1074,6 @@ gulp.task(&amp;#39;default&amp;#39;, [&amp;#39;clean&amp;#39;], function () {
 &lt;p&gt;That&amp;#39;s all folks! Good luck and keep on building awesome generators.&lt;/p&gt;
 
 &lt;p&gt;If you&amp;#39;re a generator author, you really should click the &lt;a href=&quot;https://github.com/yeoman/generator&quot;&gt;&lt;code&gt;watch&lt;/code&gt; button on the Generator system repo&lt;/a&gt; - this way you&amp;#39;ll be kept up to date on our future plan and updates. Also make sure to check the &lt;code&gt;[Composability]&lt;/code&gt; issues, this is our next big milestone and we need your feedback!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Release the Kraken! - Announcing Yeoman 1.0</title>
-    <link href="http://yeoman.io/blog/hello-1.0.html"/>
-    <updated>2013-08-23T00:00:00+08:00</updated>
-    <id>http://yeoman.io/blog/hello-1.0</id>
-    <content type="html">&lt;p&gt;Your favorite top-hat-and-mustache man has hit the shelves. Head to your nearest npm today and update to Yeoman 1.0!&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;The Yeoman 1.0 Team&quot; src=&quot;http://i.imgur.com/ckKa3jC.jpg&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;For those who haven&amp;#39;t tried Yeoman yet, or have been waiting for 1.0, just tell your terminal:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;npm install -g yo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;If you&amp;#39;ve already used any of the 1.0 Release Candidates, you&amp;#39;ll feel right at home with this upgrade. You&amp;#39;re in for more of the same stable, happy relationships you&amp;#39;ve had with yo and your favorite generators.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;npm update -g yo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Remember, you&amp;#39;ll need to install a generator using &lt;code&gt;yo&lt;/code&gt; or &lt;code&gt;yo&lt;/code&gt; followed by a generator name like &lt;code&gt;yo angular&lt;/code&gt; before you see the options below :)&lt;/p&gt;
-
-&lt;h2&gt;What&amp;#39;s New In 1.0?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img alt=&quot;A new `yo` helpful prompt system&quot; src=&quot;http://i.imgur.com/TY9OpoC.png&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Some of the interesting developments over the past year have included:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Separating out &lt;code&gt;yo&lt;/code&gt; from &lt;code&gt;yeoman&lt;/code&gt;, positioning it as a first-class scaffolding solution for the web.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A completely rewritten generator system with rich prompts (checkbox, list, etc. thanks to &lt;a href=&quot;https://github.com/SBoudrias/Inquirer.js&quot;&gt;Inquirer.js&lt;/a&gt;, file utilities and more.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/yeoman/generator/pull/311&quot;&gt;Major performance improvements&lt;/a&gt; and an &lt;a href=&quot;https://github.com/yeoman/generator/issues/305&quot;&gt;automation of install steps&lt;/a&gt;. Generators can now install all their peer dependencies, meaning you can just run: &lt;code&gt;npm install generator-angular&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A new &lt;code&gt;yo&lt;/code&gt; &lt;a href=&quot;https://github.com/yeoman/yo/pull/36&quot;&gt;helpful prompt system&lt;/a&gt;. Just running &lt;code&gt;yo&lt;/code&gt; without specifying a generator will let you easily update your generators, search for and install new generators, and find help.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Why Yeoman?&lt;/h2&gt;
-
-&lt;p&gt;If you&amp;#39;re new to Yeoman, you&amp;#39;ll have &lt;em&gt;a lot&lt;/em&gt; of power at your fingertips with just one &lt;code&gt;yo ____&lt;/code&gt; command. For help getting started, try out these resources:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The Yeoman &lt;a href=&quot;http://yeoman.io/gettingstarted.html&quot;&gt;Getting Started Guide&lt;/a&gt; will help understand how to use Yo, Grunt, and Bower together efficiently.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Addy&amp;#39;s &lt;a href=&quot;http://www.youtube.com/watch?v=iUQ1fvdO9GY&quot;&gt;Video&lt;/a&gt; will walk you through using Yeoman to build an application with AngularJS.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Stephen&amp;#39;s &lt;a href=&quot;http://net.tutsplus.com/tutorials/javascript-ajax/building-apps-with-the-yeoman-workflow/&quot;&gt;Building Apps With The Yeoman Workflow&lt;/a&gt; will show you how to build a Backbone.js application.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Even for experienced developers, Yeoman will still improve your workflow. One of the ways Yeoman helps out of the box is by providing a finely-tuned Grunt configuration. What can take hours to setup-- LiveReload, Sass, Uglify, CoffeeScript-- is done in under a minute. If you wish to customize this even futher, nothing is stopping you!&lt;/p&gt;
-
-&lt;h2&gt;Who&amp;#39;s Using Yeoman?&lt;/h2&gt;
-
-&lt;p&gt;These days, Yeoman powers the tooling behind popular open-source projects like &lt;a href=&quot;https://github.com/yeoman/generator-angular&quot;&gt;Angular&lt;/a&gt;, can scaffold out &lt;a href=&quot;https://github.com/yeoman/generator-jquery&quot;&gt;jQuery plugins&lt;/a&gt;, full-stack solutions with &lt;a href=&quot;https://github.com/hoodiehq/generator-hoodie&quot;&gt;Hood.ie&lt;/a&gt; and &lt;a href=&quot;https://github.com/petecoop/generator-express&quot;&gt;Express&lt;/a&gt; and is now even used to create complete &lt;a href=&quot;https://github.com/wesleytodd/YeoPress&quot;&gt;Wordpress&lt;/a&gt; and &lt;a href=&quot;https://github.com/robwierzbowski/generator-jekyllrb&quot;&gt;Jekyll&lt;/a&gt; sites.&lt;/p&gt;
-
-&lt;p&gt;Yeoman can be used for applications of any size-- from &lt;a href=&quot;http://gifalicious.net/&quot;&gt;a gif maker&lt;/a&gt; to &lt;a href=&quot;https://www.slidecaptain.com/&quot;&gt;a slide deck&lt;/a&gt;, &lt;a href=&quot;http://rdbk.net/&quot;&gt;a news site&lt;/a&gt; or even &lt;a href=&quot;http://rtorruellas.com/vim-cheat-sheet/&quot;&gt;a VIM cheat sheet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Have your own? Leave us a message and show it off!&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2&gt;What&amp;#39;s Next For Yeoman?&lt;/h2&gt;
-
-&lt;p&gt;Yeoman will continue to grow. We have big plans that are all based around making your development workflow easier. Addy paints a lovely picture of the future in his video, &lt;a href=&quot;https://www.youtube.com/watch?v=MTYZzs8ud3E&quot;&gt;The Future Of Yeoman&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;video-container&quot;&gt;
-&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;//www.youtube.com/embed/MTYZzs8ud3E&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;To recap, here are some of the things you can look forward to:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Generators extending from other generators.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Less scaffolding prompts. Your preferences will be remembered.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Less flags. &lt;code&gt;yo&lt;/code&gt; can be all you need to remember.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Drop-in features. Need CoffeeScript?&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Many more improvements for generator authors also await. You can follow and contribute to the discussion about where we&amp;#39;re headed at &lt;a href=&quot;https://github.com/yeoman/yo.next&quot;&gt;yo.next&lt;/a&gt; on GitHub.&lt;/p&gt;
-
-&lt;h2&gt;A Busy Year&lt;/h2&gt;
-
-&lt;p&gt;Since this time last year…&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Addy&amp;#39;s family moved to London.&lt;/li&gt;
-&lt;li&gt;Brian moved to California to work on Angular full-time.&lt;/li&gt;
-&lt;li&gt;Pascal is going to make his big announcement next week or so.&lt;/li&gt;
-&lt;li&gt;Stephen had a baby lady.&lt;/li&gt;
-&lt;li&gt;Sindre got a &lt;a href=&quot;https://si0.twimg.com/profile_images/378800000290468360/624c082d4ee22bd6806e58dfe7239fa1.jpeg&quot;&gt;mustache&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;…and yet here we are with the release of a massive project. How could we possibly have done this?&lt;/p&gt;
-
-&lt;p&gt;You guys! This simply wouldn&amp;#39;t have been possibly without the help of the enormous open source community. If you had a pull request merged, created an issue, or just made a suggestion, leave a comment! This day is all of ours!&lt;/p&gt;
-
-&lt;p&gt;Here are some of us...&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Addy, Brian, and Sindre&quot; src=&quot;http://i.imgur.com/MoBqhEQ.png&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;...but, thank you from all of us.&lt;/p&gt;
-
-&lt;p&gt;Stephen Sawchuk { &lt;a href=&quot;https://twitter.com/stephenplusplus&quot;&gt;@stephenplusplus&lt;/a&gt; },
-&lt;br&gt;Addy Osmani { &lt;a href=&quot;https://twitter.com/addyosmani&quot;&gt;@addyosmani&lt;/a&gt; },
-&lt;br&gt;Sindre Sorhus { &lt;a href=&quot;https://twitter.com/sindresorhus&quot;&gt;@sindresorhus&lt;/a&gt; },
-&lt;br&gt;Brian Ford { &lt;a href=&quot;https://twitter.com/briantford&quot;&gt;@briantford&lt;/a&gt; },
-&lt;br&gt;Pascal Hartig { &lt;a href=&quot;https://twitter.com/passy&quot;&gt;@passy&lt;/a&gt; },
-&lt;br&gt;Paul Irish { &lt;a href=&quot;https://twitter.com/paul_irish&quot;&gt;@paul_irish&lt;/a&gt; },
-&lt;br&gt;Frederick Ros { &lt;a href=&quot;https://twitter.com/sl33p3r&quot;&gt;@sl33p3r&lt;/a&gt; },
-&lt;br&gt;Mickael Daniel { &lt;a href=&quot;https://twitter.com/mklabs&quot;&gt;@mklabs&lt;/a&gt; },
-&lt;br&gt;Eric Bidelman { &lt;a href=&quot;https://twitter.com/ebidel&quot;&gt;@ebidel&lt;/a&gt; }&lt;/p&gt;
-
-&lt;p&gt;and the rest of the &lt;a href=&quot;https://github.com/yeoman?tab=members&quot;&gt;Yeoman&lt;/a&gt; team.&lt;/p&gt;
 </content>
   </entry>
   
